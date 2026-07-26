@@ -1,0 +1,75 @@
+.about-page {
+  min-height: 100vh;
+  background: #0b1120;
+  color: white;
+  padding: 80px 20px;
+}
+
+.back-btn {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.back-btn:hover {
+  color: #60a5fa;
+}
+
+
+.about-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-container h1 {
+  text-align: center;
+  color: #60a5fa;
+  font-size: 42px;
+  margin-bottom: 35px;
+}
+
+.about-container h2 {
+  color: #60a5fa;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.about-description,
+.purpose {
+  color: #d1d5db;
+  line-height: 1.9;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.about-creator {
+  margin-top: 50px;
+  text-align: center;
+  border-top: 2px solid #2563eb;
+  padding-top: 30px;
+}
+
+.about-creator p {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+@media (max-width:768px){
+
+.about-container{
+    width:95%;
+}
+
+.about-container h1{
+    font-size:2rem;
+}
+
+.about-description,
+.purpose{
+    font-size:16px;
+}
+
+}

@@ -1,0 +1,93 @@
+.organ-section {
+    background-color: #102847;
+    padding: 70px 60px;
+    text-align: center;
+}
+
+.organ-section h1 {
+    color: white;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.organ-section p {
+    color: #c7d4e8;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.organ-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    justify-items: center;
+}
+
+.card {
+    width: 280px;
+    background-color: #142D4C;
+    border: 2px solid #1F4E79 ;
+    border-radius: 18px;
+    padding: 30px 20px;
+    text-align: center;
+    color: white;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+}
+
+.card h2 {
+    font-size: 30px;
+    margin-bottom: 18px;
+    color: whitesmoke;
+}
+
+.card p {
+    color: #c7d4e8;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.card button {
+    background-color: #2A7FFF;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.card button:hover {
+    background-color: #4A9CFF;
+}
+
+.organ-image{
+    width:140px;
+    height:140px;
+    object-fit:contain;
+    margin-bottom:20px;
+}
+
+.card{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+@media (max-width:768px){
+
+.organ-grid{
+    grid-template-columns:1fr;
+}
+
+.card{
+    width:90%;
+    margin:auto;
+}
+
+}
