@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "../styles/navbar.css";
 import logo from "../assets/images/logo.png";
 
@@ -12,16 +13,20 @@ function Navbar() {
 
       <ul className="nav-links">
   <li>
-    <a href="#home">Home</a>
+    <HashLink smooth to="/#home">
+      Home
+    </HashLink>
   </li>
 
   <li>
-    <a href="#organs">Organs</a>
+    <HashLink smooth to="/#organs">
+      Organs
+    </HashLink>
   </li>
 
   <li>
-  <Link to="/about">About</Link>
-</li>
+    <Link to="/about">About</Link>
+  </li>
 </ul>
     </nav>
   );

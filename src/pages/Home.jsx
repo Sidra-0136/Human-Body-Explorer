@@ -7,8 +7,15 @@ function Home() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <OrganGrid />
+
+      <section id="home">
+        <Hero />
+      </section>
+
+      <section id="organs">
+        <OrganGrid />
+      </section>
+
       <Footer />
     </>
   );
